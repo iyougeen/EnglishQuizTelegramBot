@@ -8,7 +8,10 @@ git clone https://github.com/iyougeen/EnglishQuizTelegramBot.git && cd EnglishQu
 ```shell
 cp .env.example .env
 ```
-3. In .env set DJANGO_SECRET_KEY variable with your secret key. If you need you can change other env variables on your own.
+3. In .env file
+  - set DJANGO_SECRET_KEY variable with your secret key.
+  - set DJANGO_SUPERUSER_PASSWORD, DJANGO_SUPERUSER_USERNAME, DJANGO_SUPERUSER_EMAIL with your values to create Django superuser.
+  - if you need you can change other env variables on your own values.
 
 4. Then compose and build docker project
 ```shell
