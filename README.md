@@ -24,4 +24,6 @@ docker compose up -d --build
 docker exec -d tgbot-backend-1 python start_bot.py
 ```
 
-Now test
+Now try to send /start and /quiz commands to your telegram bot.
+
+Also you can go to http://localhost:8000 to see a simple main page with statistics.

@@ -1,6 +1,6 @@
 from .models import Word, Player, Poll
 from .functions import pick_a_word, get_answers_list, get_correct_id
-from telebot.types import Message
+from telebot.types import Message, PollAnswer
 from django.utils import timezone
 
 
@@ -80,3 +80,54 @@ def save_poll(poll_tg: Message) -> None:
         date_create=timezone.now()
     )
     p.save()
+
+
+def get_user_scores(tg_user_id: int) -> dict:
+    """
+    Get a user right and wrong answers scores
+    Args:
+        tg_user_id: Telegram user ID
+
+    Returns:
+        User scores
+    """
+    player = Player.objects.get(user_id=tg_user_id)
+    return {
+        'right_cnt': player.num_right_answers,  # Num of right answers
+        'wrong_cnt': player.num_wrong_answers   # Num of wrong answers
+    }
+
+
+def get_right_answer_id(poll_id: int) -> int:
+    """
+    Get an index of right answer
+    Args:
+        poll_id: Telegram poll id
+
+    Returns:
+        Num of index
+    """
+    right_answer_id = Poll.objects.values_list('poll_right_asnwer_id', flat=True).get(poll_id=poll_id)
+    return right_answer_id
+
+
+def set_user_answer(poll: PollAnswer) -> None:
+    """
+    Get answer information and check right/wrong answer and score.
+    Args:
+        poll: Poll answer information
+
+    Returns:
+        None
+    """
+    right_answer_id = get_right_answer_id(poll.poll_id)
+    user_scores = get_user_scores(poll.user.id)
+
+    player_answer = poll.option_ids[0]  # Which answer player chose
+
+    if player_answer == right_answer_id:
+        user_scores['right_cnt'] += 1
+        Player.objects.filter(user_id=poll.user.id).update(num_right_answers=user_scores['right_cnt'])
+    else:
+        user_scores['wrong_cnt'] += 1
+        Player.objects.filter(user_id=poll.user.id).update(num_wrong_answers=user_scores['wrong_cnt'])
