@@ -24,7 +24,7 @@ def main(message):
     if not is_user_exist(message.from_user.id):
         tg_user_data = get_tg_user_data(message)
         register_user(tg_user_data)
-        welcome_message = 'Hi ' + message.chat.first_name + '! You\'re registered in English Quiz. Let\'s improve your vocabulary.'
+        welcome_message = 'Hi ' + message.chat.first_name + '! You\'re registered in English Quiz. Let\'s improve your vocabulary. Send /quiz command to get quiz.'
     else:
         welcome_message = 'You\'re already registered. Send /quiz command to get quiz.'
     bot.send_message(message.chat.id, welcome_message)
