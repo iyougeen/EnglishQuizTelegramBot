@@ -1,7 +1,11 @@
 services:
   backend:
+    env_file:
+      - .env
     build:
       context: ./backend/
     command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./backend:/app
     ports:
       - '8000:8000'
