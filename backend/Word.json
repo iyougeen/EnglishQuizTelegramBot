@@ -1,0 +1,1002 @@
+[
+    {
+        "model": "bot.word",
+        "pk": 1,
+        "fields":
+        {
+            "word": "to be",
+            "translate": "быть",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 2,
+        "fields":
+        {
+            "word": "to have",
+            "translate": "иметь",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 3,
+        "fields":
+        {
+            "word": "to do",
+            "translate": "делать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 4,
+        "fields":
+        {
+            "word": "to say",
+            "translate": "говорить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 5,
+        "fields":
+        {
+            "word": "to get",
+            "translate": "получать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 6,
+        "fields":
+        {
+            "word": "to make",
+            "translate": "делать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 7,
+        "fields":
+        {
+            "word": "to go",
+            "translate": "идти",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 8,
+        "fields":
+        {
+            "word": "to know",
+            "translate": "знать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 9,
+        "fields":
+        {
+            "word": "to take",
+            "translate": "брать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 10,
+        "fields":
+        {
+            "word": "to see",
+            "translate": "видеть",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 11,
+        "fields":
+        {
+            "word": "to come",
+            "translate": "приходить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 12,
+        "fields":
+        {
+            "word": "to think",
+            "translate": "думать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 13,
+        "fields":
+        {
+            "word": "to look",
+            "translate": "смотреть",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 14,
+        "fields":
+        {
+            "word": "to want",
+            "translate": "хотеть",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 15,
+        "fields":
+        {
+            "word": "to give",
+            "translate": "давать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 16,
+        "fields":
+        {
+            "word": "to use",
+            "translate": "использовать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 17,
+        "fields":
+        {
+            "word": "to find",
+            "translate": "находить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 18,
+        "fields":
+        {
+            "word": "to tell",
+            "translate": "рассказывать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 19,
+        "fields":
+        {
+            "word": "to ask",
+            "translate": "спрашивать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 20,
+        "fields":
+        {
+            "word": "to work",
+            "translate": "работать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 21,
+        "fields":
+        {
+            "word": "to seem",
+            "translate": "казаться",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 22,
+        "fields":
+        {
+            "word": "to feel",
+            "translate": "чувствовать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 23,
+        "fields":
+        {
+            "word": "to try",
+            "translate": "пытаться",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 24,
+        "fields":
+        {
+            "word": "to leave",
+            "translate": "покидать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 25,
+        "fields":
+        {
+            "word": "to call",
+            "translate": "звать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 26,
+        "fields":
+        {
+            "word": "to keep",
+            "translate": "держать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 27,
+        "fields":
+        {
+            "word": "to let",
+            "translate": "позволять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 28,
+        "fields":
+        {
+            "word": "to begin",
+            "translate": "начинать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 29,
+        "fields":
+        {
+            "word": "to help",
+            "translate": "помогать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 30,
+        "fields":
+        {
+            "word": "to talk",
+            "translate": "говорить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 31,
+        "fields":
+        {
+            "word": "to turn",
+            "translate": "поворачивать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 32,
+        "fields":
+        {
+            "word": "to start",
+            "translate": "начинать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 33,
+        "fields":
+        {
+            "word": "to show",
+            "translate": "показывать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 34,
+        "fields":
+        {
+            "word": "to hear",
+            "translate": "слышать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 35,
+        "fields":
+        {
+            "word": "to play",
+            "translate": "играть",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 36,
+        "fields":
+        {
+            "word": "to run",
+            "translate": "бегать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 37,
+        "fields":
+        {
+            "word": "to move",
+            "translate": "двигаться",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 38,
+        "fields":
+        {
+            "word": "to like",
+            "translate": "нравиться",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 39,
+        "fields":
+        {
+            "word": "to live",
+            "translate": "жить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 40,
+        "fields":
+        {
+            "word": "to believe",
+            "translate": "верить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 41,
+        "fields":
+        {
+            "word": "to hold",
+            "translate": "держать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 42,
+        "fields":
+        {
+            "word": "to bring",
+            "translate": "приносить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 43,
+        "fields":
+        {
+            "word": "to happen",
+            "translate": "происходить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 44,
+        "fields":
+        {
+            "word": "to write",
+            "translate": "писать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 45,
+        "fields":
+        {
+            "word": "to provide",
+            "translate": "предоставлять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 46,
+        "fields":
+        {
+            "word": "to sit",
+            "translate": "сидеть",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 47,
+        "fields":
+        {
+            "word": "to stand",
+            "translate": "стоять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 48,
+        "fields":
+        {
+            "word": "to lose",
+            "translate": "терять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 49,
+        "fields":
+        {
+            "word": "to pay",
+            "translate": "платить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 50,
+        "fields":
+        {
+            "word": "to meet",
+            "translate": "встречать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 51,
+        "fields":
+        {
+            "word": "to include",
+            "translate": "включать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 52,
+        "fields":
+        {
+            "word": "to continue",
+            "translate": "продолжать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 53,
+        "fields":
+        {
+            "word": "to set",
+            "translate": "устанавливать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 54,
+        "fields":
+        {
+            "word": "to learn",
+            "translate": "учить(ся)",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 55,
+        "fields":
+        {
+            "word": "to change",
+            "translate": "менять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 56,
+        "fields":
+        {
+            "word": "to lead",
+            "translate": "вести",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 57,
+        "fields":
+        {
+            "word": "to understand",
+            "translate": "понимать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 58,
+        "fields":
+        {
+            "word": "to watch",
+            "translate": "смотреть",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 59,
+        "fields":
+        {
+            "word": "to follow",
+            "translate": "следовать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 60,
+        "fields":
+        {
+            "word": "to stop",
+            "translate": "останавливать(ся)",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 61,
+        "fields":
+        {
+            "word": "to create",
+            "translate": "создавать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 62,
+        "fields":
+        {
+            "word": "to speak",
+            "translate": "говорить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 63,
+        "fields":
+        {
+            "word": "to read",
+            "translate": "читать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 64,
+        "fields":
+        {
+            "word": "to allow",
+            "translate": "позволять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 65,
+        "fields":
+        {
+            "word": "to add",
+            "translate": "добавлять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 66,
+        "fields":
+        {
+            "word": "to spend",
+            "translate": "тратить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 67,
+        "fields":
+        {
+            "word": "to grow",
+            "translate": "расти",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 68,
+        "fields":
+        {
+            "word": "to open",
+            "translate": "открывать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 69,
+        "fields":
+        {
+            "word": "to walk",
+            "translate": "гулять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 70,
+        "fields":
+        {
+            "word": "to win",
+            "translate": "выигрывать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 71,
+        "fields":
+        {
+            "word": "to offer",
+            "translate": "предлагать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 72,
+        "fields":
+        {
+            "word": "to remember",
+            "translate": "помнить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 73,
+        "fields":
+        {
+            "word": "to love",
+            "translate": "любить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 74,
+        "fields":
+        {
+            "word": "to consider",
+            "translate": "рассматривать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 75,
+        "fields":
+        {
+            "word": "to appear",
+            "translate": "появляться",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 76,
+        "fields":
+        {
+            "word": "to buy",
+            "translate": "покупать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 77,
+        "fields":
+        {
+            "word": "to wait",
+            "translate": "ждать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 78,
+        "fields":
+        {
+            "word": "to serve",
+            "translate": "обслуживать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 79,
+        "fields":
+        {
+            "word": "to die",
+            "translate": "умирать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 80,
+        "fields":
+        {
+            "word": "to send",
+            "translate": "отправлять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 81,
+        "fields":
+        {
+            "word": "to expect",
+            "translate": "ожидать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 82,
+        "fields":
+        {
+            "word": "to build",
+            "translate": "строить",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 83,
+        "fields":
+        {
+            "word": "to stay",
+            "translate": "оставаться",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 84,
+        "fields":
+        {
+            "word": "to fall",
+            "translate": "падать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 85,
+        "fields":
+        {
+            "word": "to cut",
+            "translate": "резать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 86,
+        "fields":
+        {
+            "word": "to reach",
+            "translate": "достигать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 87,
+        "fields":
+        {
+            "word": "to kill",
+            "translate": "убивать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 88,
+        "fields":
+        {
+            "word": "to remain",
+            "translate": "оставаться",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 89,
+        "fields":
+        {
+            "word": "to suggest",
+            "translate": "предлагать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 90,
+        "fields":
+        {
+            "word": "to raise",
+            "translate": "поднимать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 91,
+        "fields":
+        {
+            "word": "to pass",
+            "translate": "проходить/сдавать (экзамен)",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 92,
+        "fields":
+        {
+            "word": "to sell",
+            "translate": "продавать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 93,
+        "fields":
+        {
+            "word": "to require",
+            "translate": "требовать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 94,
+        "fields":
+        {
+            "word": "to report",
+            "translate": "сообщать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 95,
+        "fields":
+        {
+            "word": "to decide",
+            "translate": "решать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 96,
+        "fields":
+        {
+            "word": "to pull",
+            "translate": "тянуть",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 97,
+        "fields":
+        {
+            "word": "to break",
+            "translate": "ломать",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 98,
+        "fields":
+        {
+            "word": "to explain",
+            "translate": "объяснять",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 99,
+        "fields":
+        {
+            "word": "to hope",
+            "translate": "надеяться",
+            "last_picked": null
+        }
+    },
+    {
+        "model": "bot.word",
+        "pk": 100,
+        "fields":
+        {
+            "word": "to develop",
+            "translate": "развивать",
+            "last_picked": null
+        }
+    }
+]
