@@ -16,5 +16,12 @@ cp .env.example .env
 
 4. Then compose and build docker project
 ```shell
-docker compose -f docker-compose-dev.yml up -d --build
+docker compose up -d --build
 ```
+
+5. To start the bot, run start_bot.py script in container
+```shell
+docker exec -d tgbot-backend-1 python start_bot.py
+```
+
+Now test
