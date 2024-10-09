@@ -40,6 +40,18 @@ def register_user(tg_user_data: dict) -> None:
     p.save()
 
 
+def set_word_time_picked(word_id: int) -> None:
+    """
+    Set date and time when a word was picked
+    Args:
+        word_id:
+
+    Returns:
+        None
+    """
+    Word.objects.filter(id=word_id).update(last_picked=timezone.now())
+
+
 def get_poll_data() -> dict:
     """
     Get information for poll
@@ -50,12 +62,14 @@ def get_poll_data() -> dict:
     # Note: order_by('?') queries may be expensive and slow, depending on the database backend you’re using.
     words = list(Word.objects.order_by("?").distinct()[:3].values())
 
-    question = pick_a_word(words)
+    question_word = pick_a_word(words)
+    set_word_time_picked(question_word['id'])
+
     answers = get_answers_list(words)
-    correct_id = get_correct_id(question, answers)
+    correct_id = get_correct_id(question_word, answers)
 
     poll_data = {
-        "question_word": question['word'],
+        "question_word": question_word['word'],
         "answers": answers,
         "correct_id": correct_id
     }
